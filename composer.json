@@ -31,17 +31,17 @@
     }
   ],
   "require": {
-    "php": ">=8.1",
     "composer/installers": "^2.2",
-    "vlucas/phpdotenv": "^5.5",
     "oscarotero/env": "^2.1",
+    "php": ">=8.1",
     "roots/bedrock-autoloader": "^1.0",
     "roots/bedrock-disallow-indexing": "^2.0",
     "roots/wordpress": "6.8",
     "roots/wp-config": "1.0.0",
+    "vlucas/phpdotenv": "^5.5",
+    "wpackagist-plugin/contact-form-7": "6.0.6",
     "wpackagist-plugin/spinupwp": "^1.7",
-    "wpackagist-plugin/wp-ses":"1.7.1",
-    "wpackagist-plugin/contact-form-7":"6.0.6",
+    "wpackagist-plugin/wp-ses": "1.7.1",
     "wpackagist-theme/twentytwentyfive": "^1.0"
   },
   "require-dev": {

@@ -9,6 +9,7 @@ web/app/uploads/*
 web/app/cache/*
 web/app/languages/*
 !web/app/languages/.gitkeep
+!web/app/plugins/hide_admin_menus.php
 
 # WordPress
 web/wp
