@@ -32,6 +32,10 @@
     {
       "type": "composer",
       "url": "https://packages.wenmarkdigital.com/satispress/"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/MeonValleyWeb/custom-support-dashboard.git"
     }
   ],
   "require": {
@@ -47,7 +51,8 @@
     "wpackagist-plugin/spinupwp": "^1.7",
     "wpackagist-plugin/wp-ses": "1.7.1",
     "wpackagist-theme/twentytwentyfive": "^1.0",
-    "wenmark/breakdance": "2.3.1"
+    "wenmark/breakdance": "2.3.1",
+    "meonvalleyweb/custom-support-dashboard": "*"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",

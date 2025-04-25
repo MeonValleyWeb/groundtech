@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9f84cb2c8ec188121b1dc6b67b7530d",
+    "content-hash": "7f3dad23715288e808c6afb276d9c08a",
     "packages": [
         {
             "name": "composer/installers",
@@ -213,6 +213,44 @@
                 }
             ],
             "time": "2024-07-20T21:45:45+00:00"
+        },
+        {
+            "name": "meonvalleyweb/custom-support-dashboard",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MeonValleyWeb/custom-support-dashboard.git",
+                "reference": "07ee119fa0a7a3616b630b7a5e9e877fa989a809"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MeonValleyWeb/custom-support-dashboard/zipball/07ee119fa0a7a3616b630b7a5e9e877fa989a809",
+                "reference": "07ee119fa0a7a3616b630b7a5e9e877fa989a809",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+                "wp-coding-standards/wpcs": "^3.1"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "scripts": {
+                "phpcs": [
+                    "phpcs"
+                ],
+                "phpcbf": [
+                    "phpcbf"
+                ]
+            },
+            "description": "Dashboard for client support",
+            "support": {
+                "source": "https://github.com/MeonValleyWeb/custom-support-dashboard/tree/main",
+                "issues": "https://github.com/MeonValleyWeb/custom-support-dashboard/issues"
+            },
+            "time": "2025-04-05T19:37:53+00:00"
         },
         {
             "name": "oscarotero/env",

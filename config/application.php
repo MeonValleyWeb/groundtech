@@ -124,6 +124,13 @@ Config::define('WPOSES_AWS_ACCESS_KEY_ID', env('WPOSES_AWS_ACCESS_KEY_ID'));
 Config::define('WPOSES_AWS_SECRET_ACCESS_KEY', env('WPOSES_AWS_SECRET_ACCESS_KEY'));
 
 
+// Support Dashboard Configuration
+Config::define('CUSTOM_SUPPORT_DASHBOARD_COMPANY_NAME', env('CUSTOM_SUPPORT_DASHBOARD_COMPANY_NAME') ?: 'Meon Valley Web');
+Config::define('CUSTOM_SUPPORT_DASHBOARD_LOGO_URL', env('CUSTOM_SUPPORT_DASHBOARD_LOGO_URL') ?: '/app/uploads/2025/04/Meon_Valley_Icon@0.5x.png');
+Config::define('CUSTOM_SUPPORT_DASHBOARD_EMAIL', env('CUSTOM_SUPPORT_DASHBOARD_EMAIL') ?: 'andrew@meonvalleyweb.com');
+Config::define('CUSTOM_SUPPORT_DASHBOARD_PHONE', env('CUSTOM_SUPPORT_DASHBOARD_PHONE') ?: '07850037850');
+Config::define('CUSTOM_SUPPORT_DASHBOARD_WEBSITE', env('CUSTOM_SUPPORT_DASHBOARD_WEBSITE') ?: 'https://meonvalleyweb.com.com');
+
 /**
  * Custom Settings
  */
