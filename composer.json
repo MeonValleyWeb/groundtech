@@ -53,7 +53,8 @@
     "wpackagist-theme/twentytwentyfive": "^1.0",
     "wenmark/breakdance": "2.3.1",
     "meonvalleyweb/custom-support-dashboard": "*",
-    "wpackagist-plugin/autodescription":"5.1.2"
+    "wpackagist-plugin/autodescription":"5.1.2",
+    "wpackagist-plugin/fathom-analytics":"3.3.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
