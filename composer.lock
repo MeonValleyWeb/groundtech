@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f3dad23715288e808c6afb276d9c08a",
+    "content-hash": "e1c963639f3d30b15e252dbbb2c811fa",
     "packages": [
         {
             "name": "composer/installers",
@@ -1090,6 +1090,24 @@
             ],
             "description": "The Breakdance website builder for WordPress makes it easy to create incredible websites with 100+ elements, mega menu builder, form builder, WooCommerce, dynamic data, and much more.",
             "homepage": "https://breakdance.com/"
+        },
+        {
+            "name": "wpackagist-plugin/autodescription",
+            "version": "5.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/autodescription/",
+                "reference": "tags/5.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autodescription.5.1.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autodescription/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
