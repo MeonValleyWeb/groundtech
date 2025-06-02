@@ -47,15 +47,17 @@
     "roots/wordpress": "^6.8",
     "roots/wp-config": "1.0.0",
     "vlucas/phpdotenv": "^5.5",
-    "wpackagist-plugin/contact-form-7": "6.0.6",
-    "wpackagist-plugin/spinupwp": "^1.7",
+    "wpackagist-plugin/contact-form-7": "^6.0",
+    "wpackagist-plugin/spinupwp": "^1.8",
     "wpackagist-plugin/wp-ses": "1.7.1",
     "wpackagist-theme/twentytwentyfive": "^1.0",
     "wenmark/breakdance": "2.3.1",
     "meonvalleyweb/custom-support-dashboard": "*",
-    "wpackagist-plugin/autodescription":"5.1.2",
-    "wpackagist-plugin/fathom-analytics":"3.3.0",
-    "wpackagist-plugin/smtp2go":"1.12.0"
+    "wpackagist-plugin/autodescription":"^5.1",
+    "wpackagist-plugin/fathom-analytics":"^3.3",
+    "wpackagist-plugin/smtp2go":"1.12.0",
+    "wpackagist-plugin/redirection":"^5.5"
+
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
