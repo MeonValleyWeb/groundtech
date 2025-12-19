@@ -116,13 +116,6 @@ Config::define('SECURE_AUTH_SALT', env('SECURE_AUTH_SALT'));
 Config::define('LOGGED_IN_SALT', env('LOGGED_IN_SALT'));
 Config::define('NONCE_SALT', env('NONCE_SALT'));
 
-/**
- * Amazon SES Settings
- */
-
-Config::define('WPOSES_AWS_ACCESS_KEY_ID', env('WPOSES_AWS_ACCESS_KEY_ID'));
-Config::define('WPOSES_AWS_SECRET_ACCESS_KEY', env('WPOSES_AWS_SECRET_ACCESS_KEY'));
-
 
 // Support Dashboard Configuration
 Config::define('CUSTOM_SUPPORT_DASHBOARD_COMPANY_NAME', env('CUSTOM_SUPPORT_DASHBOARD_COMPANY_NAME') ?: 'Meon Valley Web');
